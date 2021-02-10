@@ -27,7 +27,7 @@ const Movie = (props) => {
 
   return (
     <>
-      <ScrollView showsVerticalScrollIndicator="false">
+      <ScrollView>
         <MovieImage posterPath={movie.poster_path} />
         <MovieTrailer setShowVideo={setShowVideo} />
         <MovieTitle movie={movie} />
